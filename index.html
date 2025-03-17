@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upskill Academy IT - Maximize Your SIWES</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Poppins', sans-serif; }
+        .hero {
+            background: linear-gradient(135deg, #007bff, #00bfff);
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+        .hero h1 { font-size: 3.5rem; font-weight: 700; }
+        .hero p { font-size: 1.25rem; margin-top: 20px; }
+        .btn-primary { background: #007bff; border: none; padding: 12px 30px; font-size: 1rem; }
+        .btn-primary:hover { background: #0056b3; }
+        .track-card {
+            transition: transform 0.3s, box-shadow 0.3s;
+            border: none;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+        .track-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        }
+        .track-card img {
+            height: 150px;
+            object-fit: cover;
+        }
+        .track-card .card-body { padding: 25px; }
+        .track-card h5 { font-weight: 600; color: #333; }
+        .track-card p { color: #666; }
+        .section-heading {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+        .section-subheading {
+            font-size: 1.25rem;
+            color: #555;
+            margin-bottom: 40px;
+        }
+        .feature-card {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .feature-card:hover { transform: translateY(-10px); }
+        .feature-card h4 { font-weight: 600; color: #007bff; }
+        .feature-card p { color: #555; }
+        .form-control { border-radius: 10px; padding: 12px; }
+        .form-control:focus { border-color: #007bff; box-shadow: none; }
+        .footer {
+            background: #f8f9fa;
+            padding: 40px 0;
+            text-align: center;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Maximize Your SIWES Time</h1>
+            <p>Turn your Student Industrial Work Experience Scheme into a launchpad for your tech career. Learn in-demand skills, build real-world projects, and stand out in the job market.</p>
+            <a href="#apply" class="btn btn-primary btn-lg">Start Your Journey Today</a>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="container my-5 py-5">
+        <div class="text-center">
+            <h2 class="section-heading">Why Choose Upskill Academy IT?</h2>
+            <p class="section-subheading">We help you make the most of your SIWES by providing the tools, guidance, and community you need to succeed.</p>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-md-4 mb-4">
+                <div class="feature-card text-center">
+                    <h4>🚀 Structured Learning Paths</h4>
+                    <p>We curate the best resources from platforms like Udemy, Coursera, and freeCodeCamp to ensure you learn only what’s relevant and in-demand.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="feature-card text-center">
+                    <h4>💬 Active Community</h4>
+                    <p>Join a vibrant WhatsApp community of like-minded learners. Share progress, ask questions, and stay motivated throughout your SIWES.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="feature-card text-center">
+                    <h4>🛠️ Project-Based Learning</h4>
+                    <p>No boring lectures. Learn by building real-world projects that you can showcase in your portfolio and during job interviews.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-5">
+            <h3 class="fw-bold text-dark">Your SIWES, Your Rules – We Just Provide the Roadmap</h3>
+            <p class="text-secondary">Take control of your learning and make your SIWES count. Join us today!</p>
+            <a href="#apply" class="btn btn-primary btn-lg px-4">Apply Now</a>
+        </div>
+    </section>
+
+    <!-- Learning Tracks Section -->
+    <section class="container my-5">
+        <div class="text-center mb-4">
+            <h2 class="section-heading">Choose Your Learning Track</h2>
+            <p class="section-subheading">Pick a path that aligns with your career goals and start building your future.</p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card track-card">
+                    <img src="images/data.png" alt="Data Structures & Algorithms">
+                    <div class="card-body">
+                        <h5 class="card-title">Data Structures & Algorithms</h5>
+                        <p class="card-text">Master problem-solving techniques to ace technical interviews and land your dream job.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card track-card">
+                    <img src="images/web.png" alt="Web Development">
+                    <div class="card-body">
+                        <h5 class="card-title">Web Development</h5>
+                        <p class="card-text">Learn full-stack development with modern frameworks like React, Node.js, and Express.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card track-card">
+                    <img src="images/python.png" alt="Python Developer">
+                    <div class="card-body">
+                        <h5 class="card-title">Python Developer</h5>
+                        <p class="card-text">Become proficient in Python for backend development, automation, and data analysis.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card track-card">
+                    <img src="images/software.png" alt="Software Engineering">
+                    <div class="card-body">
+                        <h5 class="card-title">Software Engineering</h5>
+                        <p class="card-text">Learn system design, architecture, and best coding practices to build scalable applications.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card track-card">
+                    <img src="images/ai.png" alt="AI / ML / Deep Learning">
+                    <div class="card-body">
+                        <h5 class="card-title">AI / ML / Deep Learning</h5>
+                        <p class="card-text">Dive into artificial intelligence and build intelligent applications that solve real-world problems.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Application Form Section -->
+    <!-- Application Form Section -->
+<section id="apply" class="container my-5">
+    <div class="text-center mb-4">
+        <h2 class="section-heading">Apply Now</h2>
+        <p class="section-subheading">Don’t waste your SIWES time. Start learning, building, and growing today!</p>
+    </div>
+
+    <form id="signup-form" class="p-4 border rounded shadow-sm bg-light" action="https://formspree.io/f/xzzezjdd" method="POST">
+        <div class="mb-3">
+            <label for="name" class="form-label fw-bold">Full Name</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Enter your full name" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="email" class="form-label fw-bold">Email</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email address" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="dpt" class="form-label fw-bold">Department</label>
+            <input type="text" class="form-control" id="dpt" name="department" placeholder="Your Department" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="lvl" class="form-label fw-bold">Level of Study</label>
+            <input type="text" class="form-control" id="lvl" name="level" placeholder="Your Current Level" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="track" class="form-label fw-bold">Select Your Learning Track</label>
+            <select class="form-control" id="track" name="track" required>
+                <option value="">Choose...</option>
+                <option value="dsa">Data Structures & Algorithms</option>
+                <option value="web">Web Development</option>
+                <option value="python">Python Developer</option>
+                <option value="software">Software Engineering</option>
+                <option value="ai">AI / ML / Deep Learning</option>
+            </select>
+        </div>
+
+        <button type="submit" class="btn btn-primary w-100 fw-bold">Submit Application</button>
+    </form>
+</section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="mb-0">© 2025 Upskill Academy IT. All rights reserved.</p>
+        </div>
+    </footer>
+
+ <script>
+     document.getElementById("signup-form").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent default to handle submission manually
+
+            let form = this;
+            let track = document.getElementById("track").value;
+
+            let whatsappLinks = {
+                "dsa": "https://chat.whatsapp.com/DSA_Link",
+                "web": "https://chat.whatsapp.com/Web_Link",
+                "python": "https://chat.whatsapp.com/Python_Link",
+                "software": "https://chat.whatsapp.com/Software_Engineering_Link",
+                "ai": "https://chat.whatsapp.com/AI_ML_DL_Link"
+            };
+
+            if (track && whatsappLinks[track]) {
+                // Send form data to Formspree
+                fetch(form.action, {
+                    method: form.method,
+                    body: new FormData(form),
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                }).then(response => {
+                    if (response.ok) {
+                        alert("Application submitted successfully! Redirecting to WhatsApp group...");
+                        setTimeout(() => {
+                            window.location.href = whatsappLinks[track]; // Redirect after submission
+                        }, 1500); // Delay to allow alert to show
+                    } else {
+                        alert("Something went wrong. Please try again.");
+                    }
+                }).catch(error => {
+                    alert("Error submitting form. Please check your connection.");
+                });
+            } else {
+                alert("Please select a valid learning track.");
+            }
+        });
+
+ </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
